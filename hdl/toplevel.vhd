@@ -911,6 +911,7 @@ begin
         heartbeatCount    => heartbeat_count,
         hbfNumber         => hbf_number,
         hbfNumMismatch    => hbf_num_mismatch,
+        clkDiv16          => open,
 
         -- DAQ I/F --
         hbfCtrlGateIn     => frame_ctrl_gate,
